@@ -1,0 +1,9 @@
+.Accordion {
+    background: #d9d7f507;
+    backdrop-filter: blur(10px); /* Aplicando o blur */
+    -webkit-backdrop-filter: blur(10px); /* Suporte para navegadores antigos */
+}
+
+.expandIcon {
+    color: var(--text-light-gray);
+}
