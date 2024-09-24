@@ -1,0 +1,25 @@
+.fadeInSection {
+  opacity: 0;
+  transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.fadeInSection.fadeIn-up {
+  transform: translateY(20px);
+}
+
+.fadeInSection.fadeIn-down {
+  transform: translateY(-20px);
+}
+
+.fadeInSection.fadeIn-left {
+  transform: translateX(-20px);
+}
+
+.fadeInSection.fadeIn-right {
+  transform: translateX(20px);
+}
+
+.fadeInSection.visible {
+  opacity: 1;
+  transform: translateX(0) translateY(0);
+}
