@@ -1,0 +1,8 @@
+.textDark {
+    color: var(--text-dark);
+    text-decoration: none;
+}
+
+.textLight {
+    color: var(--text-light);
+}
