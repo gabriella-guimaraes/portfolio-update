@@ -1,0 +1,43 @@
+.Hero{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-image: url("../../../assets/gradient_bg1.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.Icon {
+    color: var(--text-light);
+}
+
+.Icon:hover {
+    transform: scale(1.2);
+    transition: 0.5s;
+    filter: drop-shadow(1px 1px 4px rgba(241, 240, 244, 0.199)); 
+    border-radius: 100%;
+}
+
+@media (max-width: 1100px) {
+    #Title {
+      font-size: 72px;
+    }
+  }
+  
+  @media (max-width: 768px) {
+    #Title {
+      font-size: 48px;
+      padding: 1rem;
+    }
+  }
+  
+  @media (max-width: 400px) {
+    #Title {
+      font-size: 42px;
+      padding: 1rem;
+    }
+  }
