@@ -3,6 +3,7 @@ import './App.css';
 import NavBar from './Components/organisms/header/NavBar';
 import Hero from './Components/templates/hero/hero';
 import About from './Components/templates/about/about';
+import Skills from './Components/templates/skills/skills';
 
 function App() {
   return (
@@ -10,6 +11,7 @@ function App() {
       <NavBar />
       <Hero />
       <About />
+      <Skills />
       Oh shit, here we go again
     </div>
   );

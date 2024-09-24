@@ -1,0 +1,64 @@
+.Skills {
+    min-height: 100vh;
+    width: 100%;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    justify-content: center;
+    background-image: url("../../../assets/stars_bg.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    padding: 5rem 6.5rem
+}
+
+.top {
+    border-left: 1px solid var(--gray);
+}
+
+.bottom {
+    border-top: 1px solid var(--gray);
+    border-bottom: 1px solid var(--gray);
+}
+
+#softSkills {
+    text-align: right;
+}
+
+.SoftSkills {
+    margin-top: 3rem;
+}
+
+/* media query */
+
+@media (max-width: 1000px) {
+    .title {
+        text-align: center;
+    }
+
+    #softSkills {
+        text-align: center;
+    }
+}
+
+@media (max-width: 840px) {
+    .Skills {
+        padding: 3rem 3rem;
+    }
+
+    .MainTitle {
+        font-size: 46px;
+    }
+
+    .title {
+        font-size: 42px;
+    }
+
+    #softSkills {
+        text-align: center;
+    }
+
+    .SoftSkillsTitle {
+        order: 2;
+    }
+}
