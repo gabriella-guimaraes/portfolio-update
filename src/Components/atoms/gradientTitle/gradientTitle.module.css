@@ -1,0 +1,24 @@
+.Title {
+    font-weight: 600;
+    background: linear-gradient(120deg, #222188, #b14514);
+    background-clip: text;
+    -webkit-background-clip: text; /* Clipa o background no texto (necessário para webkit browsers) */
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Garante que o texto seja transparente */
+    text-transform: uppercase;
+}
+
+.light {
+    font-weight: 600;
+    background: linear-gradient(120deg, #5b59e6, #e05c1e);
+    background-clip: text;
+    -webkit-background-clip: text; /* Clipa o background no texto (necessário para webkit browsers) */
+    -webkit-text-fill-color: transparent;
+    color: transparent; /* Garante que o texto seja transparente */
+}
+
+@media (max-width: 768px) {
+    .Title, .light {
+        font-size: 46px;
+    }
+}
