@@ -1,0 +1,46 @@
+.About {
+    background-color: var(--bg-light);
+    min-height: 50vh;
+    color: var(--text-dark);
+    padding: 5rem 6rem
+}
+
+.Img {
+    width: 90%;
+    height: auto;
+    align-self: center;
+}
+
+.location {
+    margin-top: 2rem;
+}
+
+.Personal {
+    padding: 2rem 2rem;
+    margin-top: 2rem;
+    border-top: 1px solid var(--text-light-gray);
+}
+
+@media (max-width: 1000px) {
+    .Personal {
+        padding: 1rem 0;
+    }
+
+    .container {
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 800px) {
+    .About {
+        padding: 3rem 3rem;
+    }
+
+    .container {
+        padding: 1rem 0;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
