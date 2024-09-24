@@ -1,0 +1,9 @@
+/* .title {
+    border-right: 1px solid var(--gray);
+}
+
+@media (max-width: 868px) {
+    .title {
+        border-right: none;
+    }
+} */
