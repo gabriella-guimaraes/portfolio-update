@@ -64,7 +64,7 @@ function NavBar() {
         }
     ];
   return (
-    <AppBar position="static" sx={{ backgroundColor: "#0a091009", borderBottom: "1px solid #68667ec7" }}>
+    <AppBar position="fixed" sx={{ backgroundColor: "#0a091009", borderBottom: "1px solid #68667ec7" }}>
       <Toolbar>
         <Typography variant="h6" align='left' color='text.primary' sx={{ flexGrow: 1, height: "100%" }} className={styles.title}>
           GABRIELLA GUIMARÃES
