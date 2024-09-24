@@ -1,0 +1,9 @@
+.Softwares {
+    padding: 2rem;
+}
+
+@media (max-width: 768px) {
+    .Softwares {
+        padding: 1rem;
+    }
+}
