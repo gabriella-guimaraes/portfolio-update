@@ -102,9 +102,15 @@ function NavBar() {
         ) : (
           <Box sx={{ display: 'flex', gap: 2 }}>
             {menuItems.map((item) => (
-              <Button key={item.id} sx={{ color: theme.palette.text.primary }}>
-                {item.title}
-              </Button>
+              <Link 
+              key={item.id}
+              smooth={true}
+              to={item.name}
+              spy={true}>
+                <Button sx={{ color: theme.palette.text.primary }}>
+                  {item.title}
+                </Button>
+              </Link>
             ))}
           </Box>
         )}
