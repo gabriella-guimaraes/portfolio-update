@@ -1,0 +1,9 @@
+.Badge {
+    padding: 5px;
+    margin: 5px;
+    border-radius: 15px;
+    border: 1px solid var(--gray);
+    -webkit-box-shadow: 5px 6px 0px 0px rgba(157,150,212,1);
+    -moz-box-shadow: 5px 6px 0px 0px rgba(157,150,212,1);
+    box-shadow: 5px 6px 0px 0px rgba(157,150,212,1);
+}
