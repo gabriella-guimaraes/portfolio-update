@@ -1,0 +1,29 @@
+.container {
+    border-left: 2px solid var(--darker-purple);
+    padding: 0.75rem;
+}
+
+.dot {
+    content: "";
+    background-color: var(--darker-purple);
+    border-radius: 50%;
+    width: 16px;
+    height: 16px;
+    display: inline-block;
+    position: absolute;
+    left: 169px;
+    transform: translateY(20px);
+
+}
+
+@media (max-width: 1024px) {
+    .dot {
+        left: 105px;
+    }
+}
+
+@media (max-width: 768px) {
+    .dot {
+        left: 57px;
+    }
+}
