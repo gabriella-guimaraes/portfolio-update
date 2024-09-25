@@ -1,0 +1,16 @@
+.XpEducation{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url("../../../assets/gradient-planet2.png");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: var(--text-dark);
+    padding: 5rem 6rem
+}
+
+@media (max-width: 800px) {
+    .XpEducation {
+        padding: 3rem 3rem;
+    }
+}

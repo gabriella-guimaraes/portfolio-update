@@ -4,6 +4,7 @@ import NavBar from './Components/organisms/header/NavBar';
 import Hero from './Components/templates/hero/hero';
 import About from './Components/templates/about/about';
 import Skills from './Components/templates/skills/skills';
+import Xp from './Components/templates/xp/xp';
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
       <Hero />
       <About />
       <Skills />
+      <Xp />
       Oh shit, here we go again
     </div>
   );
