@@ -6,6 +6,7 @@ import About from './Components/templates/about/about';
 import Skills from './Components/templates/skills/skills';
 import Xp from './Components/templates/xp/xp';
 import Projects from './Components/templates/projects/projects';
+import Contact from './Components/templates/contact/contact';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
       <Skills />
       <Xp />
       <Projects />
-      Oh shit, here we go again
+      <Contact />
     </div>
   );
 }

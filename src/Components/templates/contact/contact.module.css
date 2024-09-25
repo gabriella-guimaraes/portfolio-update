@@ -1,0 +1,29 @@
+.Contact {
+    min-height: 50vh;
+    padding: 5rem 6rem;
+    background-image: url("../../../assets/texture.png"), radial-gradient(100% 272% at 100% 0%, #0B0B0B 0%, #131313 47.75%, #202020 94.20%);
+}
+
+.socialMedia {
+    color: var(--text-light);
+}
+
+.left {
+    border-right: 1px solid var(--gray);
+}
+
+
+@media (max-width: 850px) {
+    .Contact {
+        padding: 3rem 3rem;
+    }
+
+    #title {
+        text-align: center;
+    }
+
+    .left {
+        border-right: none;
+        margin-bottom: 40px;
+    }
+}
