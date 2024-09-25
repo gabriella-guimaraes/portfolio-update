@@ -1,0 +1,9 @@
+.EducationXp {
+    padding: 2rem 5rem
+}
+
+@media (max-width: 1024px) {
+    .EducationXp {
+        padding: 1.75rem 1rem;
+    }
+}
