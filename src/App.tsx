@@ -5,6 +5,7 @@ import Hero from './Components/templates/hero/hero';
 import About from './Components/templates/about/about';
 import Skills from './Components/templates/skills/skills';
 import Xp from './Components/templates/xp/xp';
+import Projects from './Components/templates/projects/projects';
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <About />
       <Skills />
       <Xp />
+      <Projects />
       Oh shit, here we go again
     </div>
   );
